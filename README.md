@@ -59,7 +59,7 @@ Lab photo demonstration.
 <br />
 
 
--Connecting to the server and choosing the exe file, aka (malware folder).
+Log in to Windows 10, aka (Honeypot).
 
 
 <img src="https://imgur.com/YTwr0rc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -67,45 +67,39 @@ Lab photo demonstration.
 <br />
 
 
--Download the exe file (Resume.pdf.exe) and run it
+-Turning the WF.msc or the Windows Firewall off
 
 
-<img src="https://imgur.com/bcXDOsy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/wA58yIy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
 
--After running the malware folder, checking it through the cmd by running Netstat -anob. Then The 
-connection is established
+-Creating a log repository, then add it to the SIEM.
 
-<img src="https://imgur.com/L6SZByZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-
-
-
--Ingesting the sysmon and creating an index called endpoint 
--Setting->index->new index-> endpoint->Apps->Search and reporting->index endpoint.
-
-
-<img src="https://imgur.com/Fp16zSS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/GdhGsYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/zcwnR4x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
 
 
--Searching for the malware name (Resume.pdf.exe), I found 13 events.
+-Creating Data collection rule.
 
-<img src="https://imgur.com/yd4OxpT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/ZwLKSKZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
 
--I use process guid in the search menu and found 5 events. I clean up the query and looked into the statistics.
+-Querying the logs repository with KQL and searching for a security event.
 
 
-<img src="https://imgur.com/G9rWjyY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/vb3AvSb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Time generated, Account, computer, eventId, activity, ipaddress
+<br />
+<br />
+<img src="https://imgur.com/z6tu1Sz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/vb3AvSb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
