@@ -28,30 +28,33 @@ Microsoft Azure, Azure Virtual Machine (VM), Log Analytics Workspace, Microsoft 
 Lab photo demonstration.
 
 
--Creating the Malware using msfvenom.
-<img src="https://imgur.com/a/tVJUh6l#xeLw4R0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+-Creating a resource group and virtual network(home router).
+<img src="https://imgur.com/oBWor6Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><img src="https://imgur.com/qUTCQrW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><img src="https://imgur.com/5cR54n5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 <br />
 <br />
 
 
--After creating the malware in this step, we will exploit.
+-Creating the honeypot, which will be Windows 10.
 
-<img src="https://imgur.com/qHgRqD3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/casE3Ic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><img src="https://imgur.com/DnBGFgk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br />
 <br />
 
 
--Creating the HTTP.Server.
+-Now we created everything which we the network security group is the firewall, network interface, and ethernet port.
 
-<img src="https://imgur.com/8LWykK9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/9ci2vJG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
 
--Turning down the malware detector in Windows Defender.
+-I add inbound traffic,  which can receive traffic from any any.
 
 
-<img src="https://imgur.com/zxRYS7f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/g700mVm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
@@ -59,7 +62,7 @@ Lab photo demonstration.
 -Connecting to the server and choosing the exe file, aka (malware folder).
 
 
-<img src="https://imgur.com/loAu4PC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/YTwr0rc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
