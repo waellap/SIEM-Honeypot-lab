@@ -96,10 +96,20 @@ Log in to Windows 10, aka (Honeypot).
 <img src="https://imgur.com/vb3AvSb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Time generated, Account, computer, eventId, activity, ipaddress
+-Time generated, Account, computer, eventId, activity, ipaddress.
 <br />
 <br />
 <img src="https://imgur.com/z6tu1Sz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://imgur.com/vb3AvSb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- I added a Jason file to my Sentinel workbook to see the location of the attacks in the map and where they're coming from.
+
+
+<img src="https://imgur.com/1W3lAy1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><img src="https://imgur.com/URGYW2r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/GkNG2Cq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<br />
+<br />
+
 
 
